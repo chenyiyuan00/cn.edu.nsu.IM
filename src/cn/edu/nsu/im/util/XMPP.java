@@ -5,6 +5,8 @@ import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
 
 public class XMPP {
+	
+	//this is XMPP util,mainly handle XMPP connection	
 
 	private static XMPPConnection conn = null;
 	private static String SERVER = "192.168.137.1";
